@@ -172,3 +172,9 @@ p{
 .sub-menu li a:hover, .sub-menu .current-item a {
 	background:#C6EADD;/*mint  green*/
 }
+
+span.li  { /*Because I want lists in my paragraphs ...*/
+	display: list-item; 
+	display:relative; 
+	margin-left: 2em
+}
