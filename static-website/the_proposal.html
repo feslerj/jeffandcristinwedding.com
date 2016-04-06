@@ -4,6 +4,26 @@
 	<title>Jeff and Cristin - April 16th, 2016</title>
 
 	<link rel="stylesheet" type="text/css" href="default.css">
+	<style>
+		/* This rule is read by Galleria to define the gallery height: */
+		#galleria{height:750px; width:750px;}
+	</style>
+	
+	<!-- load jQuery -->
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.js"></script>
+
+	<!-- load Galleria -->
+	<script src="./galleria.js"></script>
+	
+	<script>
+
+		// Load the classic theme
+		Galleria.loadTheme('galleria.classic.js');
+
+		// Initialize Galleria
+		Galleria.run('#galleria');
+
+	</script>
 	
 </head>
 <body>
@@ -45,12 +65,35 @@
 		<div class="wrap1">
 			<div class="wrap2">
 				<h1>Jeff and Cristin</h1>
-				<p>
-					<br/>
-					<strong>More Coming Soon!</strong>
-					<br/>
-				</p>
+				<div id="galleria">
+					<a href="http://i.imgur.com/LiToTfK.jpg">
+						<img
+							src="http://i.imgur.com/LiToTfK.jpg",
+							data-big="http://i.imgur.com/LiToTfK.jpg"
+							data-title=""
+							data-description=""
+						>
+					<a href="http://i.imgur.com/JPRBxXd.jpg">
+						<img
+							src="http://i.imgur.com/JPRBxXd.jpg",
+							data-big="http://i.imgur.com/JPRBxXd.jpg"
+							data-title=""
+							data-description=""
+						>
+					</a>
+					<a href="http://i.imgur.com/ZEaa0r2.jpg">
+						<img
+							src="http://i.imgur.com/ZEaa0r2.jpg",
+							data-big="http://i.imgur.com/ZEaa0r2.jpg"
+							data-title=""
+							data-description=""
+						>
+				</div>
 			</div>
+			<br/>
+			<iframe width="420" height="315" src="https://www.youtube.com/embed/2sY9YgBu6KM" frameborder="0" allowfullscreen></iframe>
+			<br/>
+			<br/>
 		</div>
 		<div style="height:auto; margin:0 auto;"><div style="width:40%; margin:0 auto;">Contact Us Here: <a href="mailto:jeffandcristin@gmail.com">jeffandcristin@gmail.com</a></div></div>
 	</body>
