@@ -73,7 +73,7 @@ div.wrap2{
 }
 
 p{
-	background:#fff;
+	background:#f0f0f0;
 	padding-left: 20px;
 	padding-bottom: 20px;
 	padding-right: 20px;
@@ -177,4 +177,22 @@ span.li  { /*Because I want lists in my paragraphs ...*/
 	display: list-item; 
 	display:relative; 
 	margin-left: 2em
+}
+
+span.line-heading {
+	float:left;
+	width:20em;
+	font-weight:bold;
+	text-align:right;
+	padding-right: 1em;
+}
+
+span.quote {
+	display:block;
+	background-color:#fff;
+	color:#000;
+	width: 75%;
+	text-shadow:0px 1px 1px rgba(0,0,0,1);
+	margin-left: 2em;
+	padding: 2%;
 }
